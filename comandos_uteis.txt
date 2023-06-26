@@ -1,0 +1,28 @@
+Esta é uma lista de referência dos comandos Git mais usados. (Você pode considerar marcar esta página útil.) 
+Tente se familiarizar com os comandos para que você possa eventualmente se lembrar de todos eles:
+
+Comandos relacionados a um repositório remoto:
+
+git clone git@github.com:<NOMEUSUARIO(kevinscoutinho)>/NOMEREPOSITÓRIO.git
+git push ou git push origin main (Ambos atingem o mesmo objetivo neste contexto)
+
+
+Comandos relacionados ao fluxo de trabalho:
+
+git add .
+git commit -m "A message describing what you have done to make this snapshot different"
+
+
+Comandos relacionados à verificação de status ou histórico de log
+
+git status
+git log
+
+
+A sintaxe básica do Git é                   program | action	| destination.
+
+Por exemplo:
+
+git add .			é lido como	git | add	| .			, onde o ponto representa tudo no diretório atual;
+git commit -m "message"		é lido como	git | commit -m | "message";	
+git status			é lido como	git | status	| (no destination)	
